@@ -1,0 +1,15 @@
+<form style=" text-align: center;">
+    <mat-form-field style="margin: 20px; width: 350px;" appearance="fill">
+      <mat-label>Select Category</mat-label>
+      <mat-select [(ngModel)]="selectedValue" name="food"  (selectionChange)="onSelect()">
+        <mat-option *ngFor="let category of categories" [value]="category">
+          {{category}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <p> Selected category: {{selectedValue}} </p>
+   
+  </form>
+  <div class="center">
+    <mat-card  style="margin: 50px; width:fit-content;" *ngIf="randomJoke">{{randomJoke.value}}</mat-card>
+  </div>
