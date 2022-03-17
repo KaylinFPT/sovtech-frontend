@@ -22,7 +22,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './components/home/home.component';
 import { PeopleComponent } from './components/people/people.component';
-
+import { SearchComponent } from './components/search/search.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 
@@ -33,13 +34,14 @@ import { PeopleComponent } from './components/people/people.component';
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    PeopleComponent
+    PeopleComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,MatTabsModule,
     AppRoutingModule,MatInputModule,
     BrowserAnimationsModule,MatTableModule,
-    LayoutModule,
+    LayoutModule,MatProgressSpinnerModule,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,FormsModule,

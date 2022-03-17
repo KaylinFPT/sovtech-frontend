@@ -1,0 +1,35 @@
+.small-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .large-box {
+    display: flex;
+   
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .small-box {
+    
+    width: 200px;
+    float: left;
+  }
+  
+  .large-box {
+    width: 300px;
+    float: left;
+  }
+
+  .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}

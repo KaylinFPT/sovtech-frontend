@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AllSwapi } from '../models/AllSwapi';
 import { chuckJoke } from '../models/chuckJoke';
+import { Search } from '../models/Search';
 
 @Injectable({
   providedIn: 'root'
@@ -30,7 +31,7 @@ export class ApiService {
   }
 
   getSearch(query: string){
-    return this.http.get<string>(this.apiURL + "search?query=" + query);
+    return this.http.get<Search>(this.apiURL + "search?query=" + query);
 
   }
 }

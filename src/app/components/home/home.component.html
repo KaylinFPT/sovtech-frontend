@@ -7,9 +7,9 @@
         </mat-option>
       </mat-select>
     </mat-form-field>
-    <p> Selected category: {{selectedValue}} </p>
+   
    
   </form>
   <div class="center">
-    <mat-card  style="margin: 50px; width:fit-content;" *ngIf="randomJoke">{{randomJoke.value}}</mat-card>
+    <mat-card  style="margin: 50px; max-width: 500px;" *ngIf="randomJoke">{{randomJoke.value}}</mat-card>
   </div>
