@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
+[Live demo](https://sovtechassessment.azurewebsites.net/)
+
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/83064592/158961089-0af827b0-fc3d-444e-b053-952cdef1c639.png)
 
